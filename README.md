@@ -4,6 +4,7 @@
 
 ## Evaluation 
 - k-fold cross validation
+- Leave one out cross validation (LOOCV)
 
 ## metric
 - MAE, RMSE (netflix)
@@ -15,5 +16,5 @@
 # Type of recommender system
 1. Content-based 
 - similarity of content: genre > release date > actor, review, ...
-- Genre: cosine similarity, euclid distance, pearson correlation,
+- Genre: cosine similarity, euclid distance, pearson correlation, (weighted average: users rating - cosine similarity)
 - Year: knn,  
